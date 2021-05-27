@@ -12,9 +12,9 @@
     "main": "lib/index",
     "module": "es/index",
     "jsnext:main": "es/index",
-    "repository": "ReactTraining/react-router",
-    "homepage": "https://github.com/ReactTraining/react-router#readme",
-    "bugs": "https://github.com/ReactTraining/react-router/issues",
+    "repository": "https://github.com/cmux/react-router-v3/tree/v3",
+    "homepage": "https://github.com/cmux/react-router-v3/tree/v3#readme",
+    "bugs": "https://github.com/cmux/react-router-v3/tree/v3/issues",
     "scripts": {
         "build": "npm run build-cjs && npm run build-es",
         "build-cjs": "rimraf lib && cross-env BABEL_ENV=cjs babel ./modules -d lib --ignore __tests__",
